@@ -1,12 +1,38 @@
 ---
-// Welcome to Astro! Everything between these triple-dash code fences
-// is your "component frontmatter". It never runs in the browser.
 console.log('This runs in your terminal, not the browser!');
 ---
-<!-- Below is your "component template." It's just HTML, but with
-    some magic sprinkled in to help you build great templates. -->
 <html>
-  <body>
-    <h1 class="text-green-800">Hello, World!</h1>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body class="w-full flex flex-col items-center leading-relaxed">
+    <main>
+      <div class="w-full max-w-2xl pt-10 flex flex-col gap-5">
+        <h1 class="text-2xl tracking-wide mb-4">Ben Isenstein</h1>
+        <p class="p-0 m-0">I'm a full stack developer. I love crafting rich experiences for the web. I think <span class="italic">the web platform itself</span> is one of the coolest things there is, and I like to enable other devs and businesses to build for the web more effectively.</p>
+        <p class="p-0 m-0">I live in Calgary, Alberta, Canada. I travel throughout the Americas to visit friends, climb mountains, dance, and play music.</p>
+        <p class="p-0 m-0">I spent four years as a musician, completing a bachelors degree in jazz piano. Now I bring a sense of deep observation, creativity, and collaboration to my work in tech.</p>
+        <p class="p-0 m-0">I regularly conduct talks and "ask-me-anythings" at <a class="font-bold text-black" href="https://www.inceptionu.com/" target="_blank">InceptionU</a>, my alma mater bootcamp in Calgary. Growing up, I often found myself in environments where direct mentorship was plentiful. Music teachers, coaches, summer camp leaders - I believe giving and receiving mentorship makes communities, organizations and teams much stronger.</p>
+        <p class="p-0 m-0">I worked full-time as a consultant for <a class="font-bold text-black" href="https://www.omers.com/" target="_blank">OMERS</a> via <a class="font-bold text-black" href="https://www.devtheory.com/" target="_blank">DevTheory</a> from 2022-2024.</p>
+        <p class="p-0 m-0 mb-4">I'm currently nomadic in South America.</p>
+        <div>
+          <h2 class="p-0 m-0 mb-2 text-lg">Connect with me online:</h2>
+          <div class="flex gap-2">
+            <span class="py-1 px-2 flex items-center bg-stone-200 rounded-md">
+              <span class="text-xl i-logos:github-icon"></span>
+              &nbsp;
+              <a class="text-black" href="https://github.com/BenIsenstein" target="_blank">Github</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
+<style>
+  body {
+    font-family: "Lato", sans-serif;
+  }
+</style>
