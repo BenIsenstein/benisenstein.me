@@ -3,164 +3,170 @@ console.log('This runs in your terminal, not the browser!');
 ---
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap">
+    <link rel="stylesheet" href="/node_modules/@unocss/reset/tailwind.css">
   </head>
-  <body class="w-full flex flex-col items-center leading-relaxed text-stone-800">
-    <main>
-      <div class="w-full max-w-2xl py-10 flex flex-col gap-9">
-        <h1 class="text-2xl tracking-wide m-0">Ben Isenstein</h1>
-        <section class="flex flex-col gap-5">
-          <p class="p-0 m-0">I'm a full stack developer. I love crafting rich experiences for the web. I think <span class="italic">the web platform itself</span> is one of the coolest things there is, and I like to enable other devs and businesses to build for the web more effectively.</p>
-          <p class="p-0 m-0">I live in Calgary, Alberta, Canada. I travel throughout the Americas to visit friends, climb mountains, dance, and play music.</p>
-          <p class="p-0 m-0">I spent four years as a musician, completing a bachelors degree in jazz piano. Now I bring a sense of deep observation, creativity, and collaboration to my work in tech.</p>
-          <p class="p-0 m-0">I regularly conduct talks and "ask-me-anythings" at <a class="font-bold text-black" href="https://www.inceptionu.com/" target="_blank">InceptionU</a>, my alma mater bootcamp in Calgary. Growing up, I often found myself in environments where direct mentorship was plentiful. Music teachers, coaches, summer camp leaders - I believe giving and receiving mentorship makes communities, organizations and teams much stronger.</p>
-          <p class="p-0 m-0">I consulted full-time for Canadian pension <a class="font-bold text-black" href="https://www.omers.com/" target="_blank">OMERS</a> via agency <a class="font-bold text-black" href="https://www.devtheory.com/" target="_blank">DevTheory</a> from 2022-2024.</p>
-          <p class="p-0 m-0">I'm currently nomadic in South America.</p>
+  <body>
+    <main class="w-100vw flex flex-col items-center leading-relaxed text-stone-800">
+      <div class="w-full max-w-2xl flex flex-col px-8 lg:px-0 py-20 gap-12">
+        <h1 class="text-2xl tracking-wide m-0 font-bold">Ben Isenstein</h1>
+        <section class="flex flex-col gap-6">
+          <p class="p-0 m-0 text-base">Full stack developer. I love crafting rich experiences for the web, and <span class="italic">enabling others to do their best work.</span></p>
+          <p class="p-0 m-0 text-base">From Calgary, Alberta, Canada. I travel the Americas to visit friends, climb mountains, dance, and play music.</p>
+          <p class="p-0 m-0 text-base">Completed a Bachelor of Music degree in jazz piano. I offer deep observation, creativity, and collaboration in tech.</p>
+          <p class="p-0 m-0 text-base">Regularly conducting talks and "ask-me-anythings" at <a class="font-bold text-black border-b-1 border-b-black/20 hover:border-b-black transition duration-300" href="https://www.inceptionu.com/" target="_blank">InceptionU</a>, my alma mater bootcamp. I've witnessed over and over how direct mentorship makes communities, organizations and teams much stronger.</p>
+          <p class="p-0 m-0 text-base">Consulted full-time for Canadian pension <a class="font-bold text-black border-b-1 border-b-black/20 hover:border-b-black transition duration-300" href="https://www.omers.com/" target="_blank">OMERS</a> via agency <a class="font-bold text-black border-b-1 border-b-black/20 hover:border-b-black transition duration-300" href="https://www.devtheory.com/" target="_blank">DevTheory</a> from 2022-2024.</p>
+          <p class="p-0 m-0 text-base">Currently nomadic in South America. Open to relocate.</p>
         </section>
         <section>
-          <h2 class="p-0 m-0 mb-4 text-lg">Tech and Tools I Work With</h2>
+          <h2 class="p-0 m-0 mb-4 text-lg font-bold">Tech and Tools I Work With</h2>
           <div class="w-full max-w-2xl flex flex-wrap gap-y-4">
             <div class="w-144px">
               <h3 class="p-0 m-0 text-base italic font-bold text-stone-500">
                 Languages
               </h3>
-              <ul class="pl-4 m-0">
-                <li>TypeScript</li>
-                <li>Python</li>
-                <li>Go</li>
-                <li>HTML/CSS</li>
+              <ul class="m-0">
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">TypeScript</code></li>
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">Python</code></li>
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">Go</code></li>
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">HTML/CSS</code></li>
               </ul>
             </div>
             <div class="w-144px">
               <h3 class="p-0 m-0 text-base italic font-bold text-stone-500">
                 Local Dev
               </h3>
-              <ul class="pl-4 m-0">
-                <li>VS Code</li>
-                <li>NodeJS</li>
-                <li>Vite</li>
-                <li>Docker</li>
+              <ul class="m-0">
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">VS Code</code></li>
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">NodeJS</code></li>
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">Vite</code></li>
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">Docker</code></li>
               </ul>
             </div>
             <div class="w-144px">
               <h3 class="p-0 m-0 text-base italic font-bold text-stone-500">
                 Infra
               </h3>
-              <ul class="pl-4 m-0">
-                <li>Railway</li>
-                <li>MS Azure</li>
-                <li>Google Cloud</li>
-                <li>Github</li>
+              <ul class="m-0">
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">Railway</code></li>
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">MS Azure</code></li>
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">Google Cloud</code></li>
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">Github</code></li>
               </ul>
             </div>
             <div class="w-144px">
               <h3 class="p-0 m-0 text-base italic font-bold text-stone-500">
                 Storage
               </h3>
-              <ul class="pl-4 m-0">
-                <li>SQLite</li>
-                <li>Postgres</li>
-                <li>MongoDB</li>
-                <li>Azure Storage</li>
+              <ul class="m-0">
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">SQLite</code></li>
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">Postgres</code></li>
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">MongoDB</code></li>
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">Azure Storage</code></li>
               </ul>
             </div>
             <div class="w-144px">
               <h3 class="p-0 m-0 text-base italic font-bold text-stone-500">
                 Backend
               </h3>
-              <ul class="pl-4 m-0">
-                <li>Express</li>
-                <li>Flask</li>
-                <li>Supabase</li>
-                <li>Serverless</li>
+              <ul class="m-0">
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">Express</code></li>
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">Flask</code></li>
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">Supabase</code></li>
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">Serverless</code></li>
               </ul>
             </div>
             <div class="w-144px">
               <h3 class="p-0 m-0 text-base italic font-bold text-stone-500">
                 Frontend
               </h3>
-              <ul class="pl-4 m-0">
-                <li>React</li>
-                <li>Astro</li>
-                <li>Vanilla</li>
-                <li>TailwindCSS</li>
+              <ul class="m-0">
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">React</code></li>
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">Astro</code></li>
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">Vanilla</code></li>
+                <li><code class="px-1 py-2px rounded-4px text-sm text-white bg-stone-600">TailwindCSS</code></li>
               </ul>
             </div>
           </div>
         </section>
         <section>
-          <h2 class="p-0 m-0 mb-4 text-lg">Previous and Ongoing Work</h2>
-          <div class="w-full max-w-2xl pb-4 overflow-scroll flex gap-4">
+          <h2 class="p-0 m-0 mb-4 text-lg font-bold">Previous and Ongoing Work</h2>
+          <div class="w-full max-w-2xl p-4 overflow-scroll flex gap-4 shadow-inner rounded-md bg-white">
             <div>
-              <a class="font-bold text-black" href="https://react-unstructured-table-production.up.railway.app/" target="_blank">
+              <a class="font-bold text-black text-base" href="https://react-unstructured-table-production.up.railway.app/" target="_blank">
                 React Unstructured Table
               </a>
-              <p class="w-200px m-0 p-0 text-stone-500">
+              <p class="w-200px m-0 p-0 text-stone-500 text-base">
                 Render a list of rows with unknown and varied schemas.
               </p>
             </div>
             <div>
-              <a class="font-bold text-black" href="https://github.com/BenIsenstein/supastack" target="_blank">
+              <a class="font-bold text-black text-base" href="https://github.com/BenIsenstein/supastack" target="_blank">
                 Supastack
               </a>
-              <p class="w-200px m-0 p-0 text-stone-500">
+              <p class="w-200px m-0 p-0 text-stone-500 text-base">
                 CLI tool to start development and deploy a web app template featuring Supabase, React, Vite, and TailwindCSS.
               </p>
             </div>
             <div>
-              <a class="font-bold text-black" href="https://github.com/BenIsenstein/http-job-queue" target="_blank">
+              <a class="font-bold text-black text-base" href="https://github.com/BenIsenstein/http-job-queue" target="_blank">
                 Http Job Queue
               </a>
-              <p class="w-200px m-0 p-0 text-stone-500">
+              <p class="w-200px m-0 p-0 text-stone-500 text-base">
                 Zero-dependency asynchronous HTTP request queue using Bun JS and Sqlite.
               </p>
             </div>
             <div>
-              <a class="font-bold text-black" href="https://conwaygameoflife-production.up.railway.app/" target="_blank">
+              <a class="font-bold text-black text-base" href="https://conwaygameoflife-production.up.railway.app/" target="_blank">
                 Conway's Game of Life
               </a>
-              <p class="w-200px m-0 p-0 text-stone-500">
+              <p class="w-200px m-0 p-0 text-stone-500 text-base">
                 Game of Life simulation on an HTML canvas. Careful attention paid to <span class="italic">composability</span> in the software over <span class="italic">inheritance</span>.
               </p>
             </div>
             <div>
-              <a class="font-bold text-black" href="https://mortgage-vs-renting-chart-production.up.railway.app/" target="_blank">
+              <a class="font-bold text-black text-base" href="https://mortgage-vs-renting-chart-production.up.railway.app/" target="_blank">
                 Mortgage vs Renting Chart
               </a>
-              <p class="w-200px m-0 p-0 text-stone-500">
+              <p class="w-200px m-0 p-0 text-stone-500 text-base">
                 Find out if you'll be better off buying or renting. Simulate your net worth in either timeline and see the data.
               </p>
             </div>
             <div>
-              <a class="font-bold text-black" href="https://github.com/BenIsenstein/image-service-python" target="_blank">
+              <a class="font-bold text-black text-base" href="https://github.com/BenIsenstein/image-service-python" target="_blank">
                 HTML to PDF Server
               </a>
-              <p class="w-200px m-0 p-0 text-stone-500">
+              <p class="w-200px m-0 p-0 text-stone-500 text-base">
                 Flask service to convert any html to pdf using the respective engine from Webkit, wkhtmltopdf.
               </p>
             </div>
           </div>
         </section>
         <section>
-          <h2 class="p-0 m-0 mb-4 text-lg">Connect With Me Online</h2>
-          <div class="flex gap-2">
-            <div class="py-1 px-2 flex items-center gap-2 bg-stone-200 rounded-md">
-              <span class="text-xl i-logos:github-icon"></span>
-              <a class="text-black" href="https://github.com/BenIsenstein" target="_blank">Github</a>
+          <h2 class="p-0 m-0 mb-4 text-lg font-bold">Connect With Me Online</h2>
+          <div class="flex flex-wrap gap-2">
+            <div class="flex gap-2">
+              <div class="py-1 px-2 flex items-center gap-2 bg-stone-200 rounded-md">
+                <span class="text-xl i-logos:github-icon"></span>
+                <a class="p-0 m-0 text-black text-base border-b-1 border-b-black/20 hover:border-b-black transition duration-300" href="https://github.com/BenIsenstein" target="_blank">Github</a>
+              </div>
+              <div class="py-1 px-2 flex items-center gap-2 bg-stone-200 rounded-md">
+                <span class="text-xl i-logos:linkedin-icon"></span>
+                <a class="p-0 m-0 text-black text-base border-b-1 border-b-black/20 hover:border-b-black transition duration-300" href="https://www.linkedin.com/in/benisenstein/" target="_blank">LinkedIn</a>
+              </div>
             </div>
-            <div class="py-1 px-2 flex items-center gap-2 bg-stone-200 rounded-md">
-              <span class="text-xl i-logos:linkedin-icon"></span>
-              <a class="text-black" href="https://www.linkedin.com/in/benisenstein/" target="_blank">LinkedIn</a>
-            </div>
-            <div class="py-1 px-2 flex items-center gap-2 bg-stone-200 rounded-md">
-              <span class="text-l i-logos:google-gmail"></span>
-              <a class="text-black" href="mailto:ben.isenstein@gmail.com" target="_blank">Email</a>
-            </div>
-            <div class="py-1 px-2 flex items-center gap-2 bg-stone-200 rounded-md">
-              <span class="text-xl i-logos:whatsapp-icon"></span>
-              <a class="text-black" href="https://wa.me/14034774176" target="_blank">WhatsApp</a>
+            <div class="flex gap-2">
+              <div class="py-1 px-2 flex items-center gap-2 bg-stone-200 rounded-md">
+                <span class="text-l i-logos:google-gmail"></span>
+                <a class="p-0 m-0 text-black text-base border-b-1 border-b-black/20 hover:border-b-black transition duration-300" href="mailto:ben.isenstein@gmail.com" target="_blank">Email</a>
+              </div>
+              <div class="py-1 px-2 flex items-end gap-2 bg-stone-200 rounded-md">
+                <span class="text-xl i-logos:whatsapp-icon"></span>
+                <a class="p-0 m-0 text-black text-base border-b-1 border-b-black/20 hover:border-b-black transition duration-300" href="https://wa.me/14034774176" target="_blank">WhatsApp</a>
+              </div>
             </div>
           </div>
         </section>
@@ -169,7 +175,7 @@ console.log('This runs in your terminal, not the browser!');
   </body>
 </html>
 <style>
-  body {
+  :root {
     font-family: "Lato", sans-serif;
   }
 </style>
