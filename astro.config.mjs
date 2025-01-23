@@ -5,7 +5,7 @@ import UnoCSS from 'unocss/astro'
 export default defineConfig({
     integrations: [
         UnoCSS({
-            // injectReset: '@unocss/reset/tailwind-compat.css'
+            injectReset: '@unocss/reset/tailwind-compat.css'
         }),
     ],
 })
