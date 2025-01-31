@@ -1,12 +1,15 @@
 ---
-console.log('This runs in your terminal, not the browser!');
+import { Image } from 'astro:assets';
+import aiHeadshot from '../images/ai_headshot.png';
 ---
 <html>
   <head>
+    <title>Ben Isenstein | Full Stack Developer</title>
     <meta name="title" content="Ben Isenstein | Full Stack Developer">
     <meta name="author" content="Ben Isenstein">
     <meta name="author" content="Full stack developer. I love crafting rich experiences, and enabling others to do their best work. From Calgary, Alberta, Canada. Lover and traveller of the Americas.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap">
@@ -14,6 +17,7 @@ console.log('This runs in your terminal, not the browser!');
   <body>
     <main class="w-100vw flex flex-col items-center leading-relaxed text-stone-900">
       <div class="w-full max-w-2xl flex flex-col px-8 lg:px-0 py-20 gap-12">
+        <Image class="h-16rem w-16rem self-center border-stone-7 border-2 rounded-full lg:self-start lg:h-10rem lg:w-10rem" src={aiHeadshot} alt="Photo of a young man's face, wearing black round glasses." />
         <h1 class="text-2xl tracking-wide m-0 font-bold">Ben Isenstein</h1>
         <section class="flex flex-col gap-6">
           <p class="p-0 m-0 text-base">Full stack developer. I love crafting rich experiences, and <span class="italic">enabling others to do their best work.</span></p>
