@@ -1,0 +1,13 @@
+---
+import Layout from './_layout.astro'
+import HeadshotMenu from '../components/HeadshotMenu.astro'
+const links = [
+  { href: "/", content: "Home"},
+  { href: "/resume", content: "Resume"},
+  { href: "/technical-cv", content: "Technical CV"},
+]
+---
+<Layout title="Ben Isenstein | Blog" description="The blog of software developer Ben Isenstein.">
+    <HeadshotMenu links={links} />
+    <h1 class="text-2xl tracking-wide m-0 font-bold">Blog</h1>
+</Layout>
