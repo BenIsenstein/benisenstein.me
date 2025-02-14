@@ -6,7 +6,7 @@ page: "cv"
 ---
 
 <style>
-    p {
+    main p {
         margin-bottom: 1rem;
     }
 

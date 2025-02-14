@@ -6,7 +6,7 @@ page: "resume"
 ---
 
 <style>
-    p {
+    main p {
         margin-bottom: 1rem;
     }
 
