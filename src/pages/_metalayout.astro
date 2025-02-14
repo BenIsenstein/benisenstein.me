@@ -12,21 +12,30 @@ const {title, description} = Astro.props
     <meta name="title" content={title}>
     <meta name="author" content="Ben Isenstein">
     <meta name="description" content={description}>
+    <meta property="og:locale" content="en_CA">
+    <meta property="og:site_name" content="Ben Isenstein">
+    <meta property="og:title" content={title}>
+    <meta property="og:type" content="website">
+    <meta property="og:description" content={description}>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap">
   </head>
-  <body>
-    <main class="w-100vw flex flex-col items-center leading-relaxed text-stone-900">
-      <div class="w-full max-w-2xl flex flex-col px-8 lg:px-0 py-20 gap-12">
+  <body class="flex flex-col">
+    <main class="w-100vw flex justify-center flex-1 leading-relaxed tracking-wide text-stone-900">
         <slot />
-      </div>
     </main>
+    <footer class="pt-12 pb-8 border-t-1">
+      <p class="text-center text-sm text-stone-500">2025 &centerdot; Ben Isenstein</p>
+    </footer>
   </body>
 </html>
 <style>
+  html, body {
+    height: 100%;
+  }
   :root {
     font-family: "Lato", sans-serif;
   }

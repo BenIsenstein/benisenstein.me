@@ -17,8 +17,14 @@ page: "cv"
     ul {
         list-style-type: disc;
         margin-bottom: 1rem;
+        margin-left: 1rem;
         position: relative;
         top: -1rem;
+    }
+
+    li::marker {
+        color: oklch(0.216 0.006 56.043);
+        font-size: 0.8rem;
     }
 
     a:not([class]) {
@@ -236,7 +242,7 @@ page: "cv"
 - [See on Github](https://github.com/BenIsenstein/mortgage-vs-renting-chart)
 - [See a live demo](https://mortgage-vs-renting-chart-production.up.railway.app/)
 - React SPA
-- Find out if you'll be better off buying or renting. Simulate your net worth in either timeline and see the data.
+- Find out if you would be better off buying or renting. Simulate your net worth in either timeline and see the data.
 
 <br>
 

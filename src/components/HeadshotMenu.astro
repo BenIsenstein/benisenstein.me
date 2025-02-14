@@ -12,8 +12,8 @@ import aiHeadshot from '../images/ai_headshot.png';
 const links = Astro.props.links
 ---
 <div class="flex flex-col gap-4 lg:flex-row">
-    <Image class="h-16rem w-16rem self-center border-stone-7 border-2 rounded-full lg:self-start lg:h-10rem lg:w-10rem" src={aiHeadshot} alt="Photo of a young man's face, wearing black round glasses." />
-    <div class="flex justify-center gap-2 lg:flex-col">
-      {links.map(link => <a class="px-2 py-2px m-0 rounded-4px bg-stone-200 text-base text-black w-[max-content] shadow-stone-300 hover:scale-110 hover:shadow transition duration-300" href={link.href}>{link.content}</a>)}
-    </div>
+  <Image class="h-16rem w-16rem self-center border-stone-7 border-2 rounded-full lg:self-start lg:h-10rem lg:w-10rem" src={aiHeadshot} alt="Photo of a young man's face, wearing black round glasses." />
+  <div class="flex justify-center gap-2 lg:flex-col">
+    {links.map(link => <a class="px-2 py-2px m-0 rounded-4px bg-stone-200 text-base text-black w-[max-content] shadow-stone-300 hover:scale-110 hover:shadow transition duration-300" href={link.href}>{link.content}</a>)}
   </div>
+</div>

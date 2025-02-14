@@ -16,10 +16,16 @@ page: "resume"
 
     ul {
         list-style-type: disc;
+        margin-left: 1rem;
     }
 
     li {
         margin-bottom: 0.5rem;
+    }
+
+    li::marker {
+        color: oklch(0.216 0.006 56.043);
+        font-size: 0.8rem;
     }
 
     a:not([class]) {

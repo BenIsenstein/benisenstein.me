@@ -1,0 +1,29 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../_metalayout.astro'
+import HeadshotMenu from '../../components/HeadshotMenu.astro'
+import '../../styles/blogpost.css'
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog')
+  return posts.map(post => ({
+    params: { id: post.id },
+    props: { post },
+  }))
+}
+
+const links = [
+  { href: "/", content: "Home"},
+  { href: "/blog", content: "All Posts"},
+]
+
+const { post } = Astro.props
+const { Content } = await render(post)
+---
+<Layout title={`Ben Isenstein | ${post.data.title}`} description="Blog of software developer Ben Isenstein.">
+  <div class="w-full max-w-2xl px-8 lg:px-0 py-20">
+    <HeadshotMenu links={links} />
+    <h1><strong>{post.data.title}</strong></h1>
+    <Content />
+  </div>
+</Layout>
