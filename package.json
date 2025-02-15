@@ -16,7 +16,7 @@
     "astro": "^5.1.5"
   },
   "devDependencies": {
-    "@iconify-json/logos": "^1.1.42",
+    "@iconify-json/ri": "^1.2.5",
     "unocss": "^65.4.0"
   }
 }

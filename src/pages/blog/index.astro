@@ -25,8 +25,8 @@ const blogPosts = await getCollection('blog');
     <HeadshotMenu links={links} />
     <h1 class="text-3xl tracking-wide my-12 font-bold">Blog</h1>
     <ul>
-      {blogPosts.map(post => (
-        <li class="mb-3 w-max text-lg"><a href={`/blog/${post.id}`} class="flex items-center gap-4"><span class="text-stone-600 transition-color duration-200 post-title">{post.data.title}</span><span class="text-sm text-stone-400 transition-color duration-200 post-date">{post.data.datePublished.toLocaleDateString("en-US", { month: "short", day: "2-digit", year: "numeric" })}</span></a></li>
+      {blogPosts.filter(post => post.data.published).map(post => (
+        <li class="mb-3 w-full text-lg"><a href={`/blog/${post.id}`} class="flex justify-between items-center"><span class="text-stone-600 transition-color duration-200 w-max max-w-[calc(100%_-_110px)] truncate post-title">{post.data.title}</span><span class="text-sm text-stone-400 transition-color duration-200 post-date">{post.data.datePublished.toLocaleDateString("en-US", { month: "short", day: "2-digit", year: "numeric" })}</span></a></li>
       ))}
     </ul>
   </div>

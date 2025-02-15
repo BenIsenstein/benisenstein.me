@@ -29,7 +29,7 @@ page: "resume"
     }
 
     a:not([class]) {
-        transition: border-bottom 300ms;
+        transition: border-bottom 200ms;
         border-bottom: 1px rgb(0 0 0 / 0.2) solid;
     }
 

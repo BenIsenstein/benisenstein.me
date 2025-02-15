@@ -1,10 +1,12 @@
 ---
+import Footer from '../components/Footer.astro'
+
 interface Props {
     title: string,
     description: string,
 }
 
-const {title, description} = Astro.props
+const { title, description } = Astro.props
 ---
 <html>
   <head>
@@ -27,9 +29,7 @@ const {title, description} = Astro.props
     <main class="w-100vw flex justify-center flex-1 leading-relaxed tracking-wide text-stone-900">
         <slot />
     </main>
-    <footer class="pt-12 pb-12 border-t-1">
-      <p class="text-center text-sm text-stone-500">2025 &centerdot; Ben Isenstein</p>
-    </footer>
+    <Footer />
   </body>
 </html>
 <style>
