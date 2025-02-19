@@ -24,6 +24,8 @@ const { title, description } = Astro.props
     <meta property="og:site_name" content="Ben Isenstein">
     <meta property="og:type" content="website">
     <meta property="og:image" content={`${import.meta.env.PUBLIC_HOST}${aiHeadshot.src}`}>
+    <meta property="og:image:width" content={aiHeadshot.width.toString()}>
+    <meta property="og:image:height" content={aiHeadshot.height.toString()}>
     <meta property="twitter:image" content={`${import.meta.env.PUBLIC_HOST}${aiHeadshot.src}`}>
     <meta property="og:url" content="https://benisenstein.me/">
     <meta property="twitter:url" content="https://benisenstein.me/">
