@@ -1,6 +1,7 @@
 FROM node:lts AS build
 WORKDIR /app
 COPY . .
+ARG PUBLIC_HOST
 RUN npm i
 RUN npm run build
 
