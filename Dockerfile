@@ -1,7 +1,7 @@
 FROM node:lts AS build
 WORKDIR /app
 COPY . .
-ARG PUBLIC_HOST
+ARG RAILWAY_PUBLIC_DOMAIN
 RUN npm i
 RUN npm run build
 

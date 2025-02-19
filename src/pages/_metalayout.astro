@@ -23,12 +23,12 @@ const { title, description } = Astro.props
     <meta property="og:locale" content="en_CA">
     <meta property="og:site_name" content="Ben Isenstein">
     <meta property="og:type" content="website">
-    <meta property="og:image" content={`${import.meta.env.PUBLIC_HOST}${aiHeadshot.src}`}>
+    <meta property="og:image" content={`https://www.${import.meta.env.RAILWAY_PUBLIC_DOMAIN}${aiHeadshot.src}`}>
     <meta property="og:image:width" content={aiHeadshot.width.toString()}>
     <meta property="og:image:height" content={aiHeadshot.height.toString()}>
-    <meta property="twitter:image" content={`${import.meta.env.PUBLIC_HOST}${aiHeadshot.src}`}>
-    <meta property="og:url" content="https://benisenstein.me/">
-    <meta property="twitter:url" content="https://benisenstein.me/">
+    <meta property="twitter:image" content={`https://www.${import.meta.env.RAILWAY_PUBLIC_DOMAIN}${aiHeadshot.src}`}>
+    <meta property="og:url" content="https://www.benisenstein.me/">
+    <meta property="twitter:url" content="https://www.benisenstein.me/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
