@@ -7,6 +7,9 @@
         "title": {
           "type": "string"
         },
+        "published": {
+          "type": "boolean"
+        },
         "datePublished": {
           "anyOf": [
             {
@@ -45,6 +48,7 @@
       },
       "required": [
         "title",
+        "published",
         "datePublished",
         "dateLastUpdated"
       ],

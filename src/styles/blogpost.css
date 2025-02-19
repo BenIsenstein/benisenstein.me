@@ -3,15 +3,15 @@ h1 {
     line-height: 2.25rem; /* 36px */
     letter-spacing: 0.025em;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 0.5rem;
 }
 
 h2 {
     font-size: 1.625rem;
     line-height: 2rem;
     letter-spacing: 0.02rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 
 h3 {
@@ -24,7 +24,7 @@ h3 {
 
 main p {
     line-height: 1.75;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 hr {
@@ -41,7 +41,7 @@ li {
 }
 
 a:not([class]) {
-    transition: border-bottom 300ms;
+    transition: border-bottom 200ms;
     border-bottom: 1px rgb(0 0 0 / 0.2) solid;
 }
 

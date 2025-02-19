@@ -1,0 +1,22 @@
+## Make links and other hover interactions slick with this underline technique
+
+This simple set of CSS rules creates an engaging interaction when hovering over links.
+
+This assumes you've negated all default styles the browser would normally apply to the element in question. See my Browser Style Reset article.
+
+```CSS
+a {
+    border-bottom: 1px solid rgb(0, 0, 0 / 0.2);
+    transition: border-bottom 200ms;
+}
+
+a:hover {
+    border-bottom: 1px solid black;
+}
+```
+
+In atomic classes like we would use in Tailwind/Uno:
+
+```html
+<a class="border-b-1 border-b-black/20 hover:border-b-black transition duration-200">Order Now!</a>
+```

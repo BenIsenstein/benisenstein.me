@@ -1,0 +1,13 @@
+<h2>Gradient that slides in on hover</h2>
+
+<style>
+    .link {
+        @apply relative text-white text-2xl z-2 py-1 px-4 b-t b-t-white last:b-b last:b-b-white before:content-[""] before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:bg-[linear-gradient(to_right,transparent,oklch(0.527_0.154_150.069),oklch(0.962_0.044_156.743))] before:transition-width before:transition-duration-800ms before:hover:w-full;
+    }
+</style>
+
+<div class="w-full p-8 bg-stone-900 flex flex-col">
+    <a class="link" href="" target="_blank">Three</a>
+    <a class="link" href="" target="_blank">Little</a>
+    <a class="link" href="" target="_blank">Links</a>
+</div>
