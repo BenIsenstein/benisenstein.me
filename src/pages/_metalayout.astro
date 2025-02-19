@@ -1,5 +1,6 @@
 ---
 import Footer from '../components/Footer.astro'
+import aiHeadshot from '../images/ai_headshot.png'
 
 interface Props {
     title: string,
@@ -13,13 +14,19 @@ const { title, description } = Astro.props
     <title>{title}</title>
     <meta charset="utf-8">
     <meta name="title" content={title}>
+    <meta property="og:title" content={title}>
+    <meta property="twitter:title" content={title}>
     <meta name="author" content="Ben Isenstein">
     <meta name="description" content={description}>
+    <meta property="og:description" content={description}>
+    <meta property="twitter:description" content={description}>
     <meta property="og:locale" content="en_CA">
     <meta property="og:site_name" content="Ben Isenstein">
-    <meta property="og:title" content={title}>
     <meta property="og:type" content="website">
-    <meta property="og:description" content={description}>
+    <meta property="og:image" content={aiHeadshot.src}>
+    <meta property="twitter:image" content={aiHeadshot.src}>
+    <meta property="og:url" content="https://benisenstein.me/">
+    <meta property="twitter:url" content="https://benisenstein.me/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
