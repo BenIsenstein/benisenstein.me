@@ -53,7 +53,7 @@ page: "cv"
 
 **WhatsApp:** [403-477-4176](https://wa.me/14034774176)
 
-**Call and text if abroad:** 917-936-1492
+<!-- **Call and text if abroad:** 917-936-1492 -->
 
 **Email:** [ben.isenstein@gmail.com](mailto:ben.isenstein@gmail.com)
 
@@ -158,7 +158,7 @@ page: "cv"
 - Frontend: hosted entirely within the Knowledge Exchange
 
 **Built a *Notion Integration* personal project:**
-- [See on Github](https://github.com/BenIsenstein/notion_integration_1)
+- [See on GitHub](https://github.com/BenIsenstein/notion_integration_1)
 - Notion has been the frontend for my notes, journals, todos, and organization since 2022
 - Using the Notion REST API to read and manipulate data can vastly extend its use cases
 - Newsletter emails pipeline
@@ -191,7 +191,7 @@ page: "cv"
 - Frontend: React in TypeScript
 
 **Built *John Conway Game of Life* personal project:**
-- [See on Github](https://github.com/BenIsenstein/conway_game_of_life)
+- [See on GitHub](https://github.com/BenIsenstein/conway_game_of_life)
 - [View this project live](https://conwaygameoflife-production.up.railway.app/)
 - Presenting Conways Game of Life with enjoyable UI design
 - An opportunity to practice design principles from the book [“Refactoring UI”](https://www.refactoringui.com/)
@@ -204,7 +204,7 @@ page: "cv"
 - [Python-cheatsheet](https://github.com/wilfredinni/python-cheatsheet)
 
 **Built a *Demonstration E-Commerce React App:***
-- [See on Github](https://github.com/BenIsenstein/shyft-labs-spa)
+- [See on GitHub](https://github.com/BenIsenstein/shyft-labs-spa)
 - [View this project live](https://shyft-labs-spa-production.up.railway.app/)
 - Was done in a 72-hour period for an interview process
 - React app using vite, tailwindCSS, and redux
@@ -213,7 +213,7 @@ page: "cv"
 - Responsive and built with a mobile-first approach
 
 **Built a *HTTP Job Queue***
-- [See on Github](https://github.com/BenIsenstein/http-job-queue)
+- [See on GitHub](https://github.com/BenIsenstein/http-job-queue)
 - Built with TypeScript
 - Zero-dependency asynchronous HTTP request queue using Bun JS and Sqlite.
 
@@ -224,7 +224,7 @@ page: "cv"
 ---
 
 **Built the *Supastack CLI tool***
-- [See on Github](https://github.com/BenIsenstein/supastack)
+- [See on GitHub](https://github.com/BenIsenstein/supastack)
 - Built with Python
 - Command-line tool for effortlessly scaffolding your full-stack Supabase application.
 - Create a managed backend-as-a-service on the Supabase cloud platform
@@ -233,13 +233,13 @@ page: "cv"
 - Manage infrastructure-as-code with Terraform from the start
 
 **Example Repo for *React Unstructured Table***
-- [See on Github](https://github.com/BenIsenstein/React-Unstructured-Table)
+- [See on GitHub](https://github.com/BenIsenstein/React-Unstructured-Table)
 - [See a live demo](https://react-unstructured-table-production.up.railway.app/)
 - React SPA
 - Render lists of flexible, schema-less data in React.
 
 **Built a *mortgage vs renting simulation***
-- [See on Github](https://github.com/BenIsenstein/mortgage-vs-renting-chart)
+- [See on GitHub](https://github.com/BenIsenstein/mortgage-vs-renting-chart)
 - [See a live demo](https://mortgage-vs-renting-chart-production.up.railway.app/)
 - React SPA
 - Find out if you would be better off buying or renting. Simulate your net worth in either timeline and see the data.
@@ -251,12 +251,18 @@ page: "cv"
 ---
 
 **Codewars History Bot**
-- [See on Github](https://github.com/BenIsenstein/codewars_bot)
+- [See on GitHub](https://github.com/BenIsenstein/codewars_bot)
 - Built with Go
 - An experiment in remote CI tools.
 - Authenticating and using Git in an automated environment.
 - Log new code challenges completed on [Codewars](https://www.codewars.com/)
 - Commit to a [repo on Github.](https://github.com/BenIsenstein/codewars_log)
 
-
+**Created *PG On Rails* | "Self-hosted Supabase. Amazing developer experience."**
+- [See on GitHub](https://github.com/BenIsenstein/pgonrails)
+- Self-hosting setup for Supabase compatible with the [Railway](https://railway.com/) cloud platform
+- Uses a monorepo approach to enable per-service CI/CD
+- Local-first dev experience. Easy to reason from local to deployment
+- Run the stack locally in a way that is *transparent, configurable, and **versionable in code***
+- Includes a fully-featured NextJS app with Supabase auth and server-side rendering
 
