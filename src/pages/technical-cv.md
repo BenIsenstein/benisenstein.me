@@ -49,7 +49,7 @@ page: "cv"
 
 ---
 
-**Call and text in Canada:** 403-477-4176
+**Call and text:** 403-477-4176
 
 **WhatsApp:** [403-477-4176](https://wa.me/14034774176)
 
