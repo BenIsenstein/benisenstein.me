@@ -40,9 +40,9 @@ page: "resume"
 
 <br>
 
-# **Ben Isenstein | Resume**
+# **Ben Isenstein Resume**
 
-*Calgary, AB, Canada | Open to Relocate*
+*Full-Stack++ | Open Source | Developer Experience*
 
 <br>
 
@@ -66,13 +66,13 @@ page: "resume"
 
 ---
 
-A proficient full-stack developer with five years of experience in software development. Five years of transferable experience in extremely fast-paced environments as a freelance musician.
+A competent full-stack engineer with five years of experience. Has led the technical implementation of enterprise applications and coordinated across teams. Five years of experience as a freelance musician. Growth-oriented and striving to work across every layer of software delivery.
 
-Systems thinker, with experience building tools for developer teams. Able to learn quickly, solve problems effectively, and apply new learnings across projects.
+Systems thinker, with experience building tools for developer teams. Eager to mentor and enable others to do their best work. Able to learn quickly, solve problems effectively, and apply new learnings across domains.
 
 Ambitious team member with a passion for clear communication, collaboration, and accountability. Values interpersonal skills, achievement, and cultural competence with all colleagues/clients.
 
-Over ten years of experience in varied environments with an emphasis on giving and receiving mentorship (YMCA, Elizabeth Fry, SAIT Summer Camps, Ottawa Youth Jazz Summit).
+Over ten years of experience in environments with an emphasis on mentorship (YMCA, Elizabeth Fry, SAIT Summer Camps, Ottawa Youth Jazz Summit).
 
 <br>
 
@@ -80,9 +80,7 @@ Over ten years of experience in varied environments with an emphasis on giving a
 
 ---
 
-### **Full Stack Developer (Evolve Vocational Program)** - InceptionU, Calgary, AB (2021)
-
-[https://www.inceptionu.com/full-stack-developer-program](https://www.inceptionu.com/full-stack-developer-program)
+**Full Stack Developer (Evolve Vocational Program)** - InceptionU, Calgary (2021)
 
 **Bachelor of Music (Jazz Piano Performance, Honors)** - University of Toronto (2020)
 
@@ -102,10 +100,10 @@ Over ten years of experience in varied environments with an emphasis on giving a
 
 ---
 
-### **Freelance Web Developer, Application Software Consultant (2021 - Present)**
+### **Freelance Developer, Software Consultant (2021 - Present)**
 
+- Software engineer consultant with DevTheory Inc. at Ontario Municipal Employees Retirement Service (OMERS). Building private full-stack applications for financial research, data analysis, dashboarding. Strict security requirements managing pension funds in Ontario, New York, London, Singapore. (Jan 2022-Sep 2024)
 - Project manager/web developer for UPWEGO.ai, built and styled Shopify storefront for client. (Nov-Dec 2021)
-- Software engineer in Data & Analytics at Ontario Municipal Employees Retirement Service (OMERS) via DevTheory Inc. Building private full-stack applications for financial research, data analysis, dashboarding. Utmost security requirements managing pension funds in Ontario, New York, London, Singapore. (Jan 2022-Sep 2024)
 
 <br>
 
@@ -113,6 +111,18 @@ Over ten years of experience in varied environments with an emphasis on giving a
 - [BenIsenstein/pgonrails](https://github.com/BenIsenstein/pgonrails) - Self-hosted Supabase. Amazing developer experience.
 - [sinonjs/fake-timers](https://github.com/sinonjs/fake-timers) - Browser clock APIs for testing. Upstream dependency of Jest.
 - [wilfredinni/python-cheatsheet](https://github.com/wilfredinni/python-cheatsheet) - All-inclusive Python cheatsheet.
+
+<br>
+
+### **Collaborative Freelance Musician, Canada/Italy (2015 - present)**
+
+- Performing regularly in Calgary's local music scene (present)
+- Engaged in music and dance traditions across South America - Colombia, Peru, Bolivia, Argentina, Brazil (2024-25)
+- Participant, Siena Jazz International Summer Workshop, Italy (2019)
+- Member, TD Ottawa Jazz Festival Youth Summit, All-Expenses Paid Residency (2019)
+- Presented by Youth Jazz Canada in Toronto (2017)
+- Toronto Undergraduate Jazz Festival (2016, 2017, 2019)
+- Led an inter-provincial music project at Cafe Resonance, Montreal (May 2018)
 
 <br>
 
@@ -129,16 +139,6 @@ Over ten years of experience in varied environments with an emphasis on giving a
 - Worked with children who are neuro-diverse and have varying needs
 - Demonstrated a strong ability to manage stressful situations calmly and effectively
 - Modelled appropriate behaviors for children and youth
-
-<br>
-
-### **Collaborative Freelance Musician, Canada/Italy (2015 - 2020)**
-
-- Participant, Siena Jazz International Summer Workshop, Italy (2019)
-- Member, TD Ottawa Jazz Festival Youth Summit, All-Expenses Paid Youth Residency (2019)
-- Presented by Youth Jazz Canada in Toronto (2017)
-- Toronto Undergraduate Jazz Festival (2016, 2017, 2019)
-- Led an inter-provincial music project at Cafe Resonance, Montreal (May 2018)
 
 <br>
 

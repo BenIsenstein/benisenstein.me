@@ -39,9 +39,9 @@ page: "cv"
 
 <br>
 
-# **Ben Isenstein | Technical CV**
+# **Ben Isenstein Technical CV**
 
-*Calgary, AB, Canada | Open to Relocate*
+*Full-Stack++ | Open Source | Developer Experience*
 
 <br>
 
