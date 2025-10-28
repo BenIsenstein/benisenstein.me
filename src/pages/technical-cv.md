@@ -266,3 +266,5 @@ page: "cv"
 - Run the stack locally in a way that is *transparent, configurable, and **versionable in code***
 - Includes a fully-featured NextJS app with Supabase auth and server-side rendering
 
+**Open source contributions:**
+- [supabase/supabase](https://github.com/supabase/supabase)

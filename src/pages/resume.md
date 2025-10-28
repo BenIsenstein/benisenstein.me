@@ -108,6 +108,7 @@ Over ten years of experience in environments with an emphasis on mentorship (YMC
 <br>
 
 ### **Open Source Software Contributor (2021 - Present)**
+- [supabase/supabase](https://github.com/supabase/supabase) - The open-source Firebase alternative.
 - [BenIsenstein/pgonrails](https://github.com/BenIsenstein/pgonrails) - Self-hosted Supabase. Amazing developer experience.
 - [sinonjs/fake-timers](https://github.com/sinonjs/fake-timers) - Browser clock APIs for testing. Upstream dependency of Jest.
 - [wilfredinni/python-cheatsheet](https://github.com/wilfredinni/python-cheatsheet) - All-inclusive Python cheatsheet.
