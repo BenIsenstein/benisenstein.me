@@ -20,6 +20,8 @@ const links = [
 <Layout title={frontmatter.title} description={frontmatter.description}>
   <div class="w-full max-w-2xl px-8 lg:px-0 py-20">
     <HeadshotMenu links={links} />
-    <slot />
+    <div class="slide-enter-content">
+      <slot />
+    </div>
   </div>
 </Layout>

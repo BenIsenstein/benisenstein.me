@@ -27,6 +27,8 @@ const { Content } = await render(post)
     <div class="mb-10">
       <time datetime={post.data.datePublished.toISOString()} class="text-stone-500">{post.data.datePublished.toLocaleDateString("en-US", { month: "long", day: "2-digit", year: "numeric" })}</time>
     </div>
-    <Content />
+    <div class="slide-enter-content">
+      <Content />
+    </div>
   </div>
 </Layout>
