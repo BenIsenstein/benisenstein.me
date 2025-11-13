@@ -7,9 +7,9 @@ dateLastUpdated: 2025-11-12
 
 Pasting some thoughts which I shared regarding an issue on the `/supabase/ssr` GitHub repo. The issue is still active, and you can follow the discussion here: [AuthApiError: Invalid Refresh Token: Refresh Token Not Found when refreshing token in middleware](https://github.com/supabase/ssr/issues/68).
 
-Developers building NextJS apps which refresh Supabase Auth sessions on both the server and client are seeing their users logged out seemingly randomly. This is a massive problem that needs to be understood and solved, but I try to explain that it's not random, and that there are some things we can do about it starting now.
+Developers building NextJS apps with server-side Supabase auth are seeing their users logged out seemingly randomly. This is a massive problem that needs to be understood and solved, but I try to explain that it's not random, and that there are some things we can do about it starting now.
 
-It's my feeling that having a deeper understanding of Supabase in general really is our path towards being more robust in our app dev work. Here we go!
+It's my feeling that having a broader and deeper understanding of Supabase really is our path towards being more robust in our app dev work. Here we go!
 
 ## The Issue Beneath The Issue
 
