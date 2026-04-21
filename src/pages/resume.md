@@ -100,14 +100,33 @@ Over ten years of experience in environments with an emphasis on mentorship (YMC
 
 ---
 
-### **Freelance Developer, Software Consultant (2021 - Present)**
+### **Senior Full Stack Developer, OMERS, April 2026-Present**
 
-- Software engineer consultant with DevTheory Inc. at Ontario Municipal Employees Retirement Service (OMERS). Building private full-stack applications for financial research, data analysis, dashboarding. Strict security requirements managing pension funds in Ontario, New York, London, Singapore. (Jan 2022-Sep 2024)
-- Project manager/web developer for UPWEGO.ai, built and styled Shopify storefront for client. (Nov-Dec 2021)
+- Relationship building and stakeholder management
+- Exploration of the Private Capital business area to determine their need for software solutions
+- FastAPI, React, SQL Server, Docker
+
+### **Full Stack Developer, Horizon3 AI Labs at Unilever, Jan 2026-April 2026**
+
+- Supported the application lifecycle for rapid prototyping of AI solutions
+- Wrote and presented best-practices guidelines for programming, app development
+- Used best-practice agentic development for software safely built with Coding Agents
+- Built an AI agent Python library, published to Azure Artifact Registry for internal use across Unilever
+- Launched an internal Agent Platform for non-technical users to leverage AI at Unilever
+- Python, LangChain, Google Gemini REST API, Docker, Docker Compose, React, React Query, NextJS, shadcn/ui
+
+### **Full Stack Developer, OMERS, Jan 2022-Sep 2024**
+
+- Strict security requirements managing pension funds
+- Built full-stack enterprise applications with TypeScript for financial research, data analysis, dashboarding
+- React, react-query, MaterialUI, Azure Functions
+- SQL Server, Azure Storage Tables, Azure Blob Storage
+- Teams API, Outlook API, Azure Logic Apps, Azure Cognitive Search
 
 <br>
 
 ### **Open Source Software Contributor (2021 - Present)**
+
 - [supabase/supabase](https://github.com/supabase/supabase) - The open-source Firebase alternative.
 - [BenIsenstein/pgonrails](https://github.com/BenIsenstein/pgonrails) - Self-hosted Supabase. Amazing developer experience.
 - [sinonjs/fake-timers](https://github.com/sinonjs/fake-timers) - Browser clock APIs for testing. Upstream dependency of Jest.

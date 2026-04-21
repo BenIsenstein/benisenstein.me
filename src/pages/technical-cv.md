@@ -268,3 +268,13 @@ page: "cv"
 
 **Open source contributions:**
 - [supabase/supabase](https://github.com/supabase/supabase)
+
+<br>
+
+### **2026**
+
+---
+
+**AI Agent Harness**
+- Built an agent harness with session management, controllable context, structured inputs/outputs, tool-calling
+- Learned harness engineering from [12-factor agents](https://github.com/humanlayer/12-factor-agents)
